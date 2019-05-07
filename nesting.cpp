@@ -35,7 +35,7 @@
 #include "dependencies/CRoaring/roaring.h"
 
 #include "hashes_paper.h"
-#include "serializers/commons/secondary_memory/vertex_id_index.h"
+#include "serializers/commons/secondary_memory/primary_index.h"
 
 #define FROM_HASH(x)    (((x) & 2) ? KNOWS :(((x) & 4) ? CREATES : (((x) & 8) ? INCLUSTER : 0)))
 
@@ -62,17 +62,15 @@ int main() {
     std::string vertices = base + "_values.bin";
     header* begin_vertices = (header*)mmapFile(vertices.c_str(), &size_values, &fd_values);
     header *v = begin_vertices;
-    
-    
 
     std::string vid_idx  = base + "_vid_index.bin";
     std::string cont_idx = base + "_containment.bin";
     std::string adj = base + "_result.bin";
     LONG_NUMERIC size_vid_idx; int fd_vid_idx;
-    vertex_id_index* begin_vid_idx = (vertex_id_index*)mmapFile(vid_idx.c_str(), &size_vid_idx, &fd_vid_idx);
+    primary_index* begin_vid_idx = (primary_index*)mmapFile(vid_idx.c_str(), &size_vid_idx, &fd_vid_idx);
     header* end_vertices = (header*)(((char*)begin_vertices) + size_values);
-    vertex_id_index* end_vid_idx = (vertex_id_index*)(((char*)begin_vid_idx) + size_vid_idx);
-    LONG_NUMERIC V_size = size_vid_idx/sizeof(vertex_id_index);
+    primary_index* end_vid_idx = (primary_index*)(((char*)begin_vid_idx) + size_vid_idx);
+    LONG_NUMERIC V_size = size_vid_idx/sizeof(primary_index);
 
 
     std::map<LONG_NUMERIC, std::unordered_set<LONG_NUMERIC>> user_to_cluster;

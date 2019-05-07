@@ -1,0 +1,3 @@
+[submodule "dependencies/graphnestingc"]
+	path = dependencies/graphnestingc
+	url = https://bitbucket.org/unibogb/graphnestingc/src/master/

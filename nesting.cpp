@@ -1,6 +1,6 @@
 /*
  * nesting.cpp
- * This file is part of FoSP
+ * This file is part of FHoSP
  *
  * Copyright (C) 2019 - Giacomo Bergami
  *

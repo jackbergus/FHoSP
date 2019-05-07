@@ -1,6 +1,6 @@
 /*
  * nesting.cpp
- * This file is part of FoSP
+ * This file is part of FHoSP
  *
  * Copyright (C) 2019 - Giacomo Bergami
  *
@@ -57,16 +57,19 @@ namespace std {
 
 int main() {
     std::string base = "/home/giacomo/fishing_for_fishies/merged/shuf_2.txt";
+    int fd_values;
+    LONG_NUMERIC size_values;
     std::string vertices = base + "_values.bin";
+    header* begin_vertices = (header*)mmapFile(vertices.c_str(), &size_values, &fd_values);
+    header *v = begin_vertices;
+    
+    
+
     std::string vid_idx  = base + "_vid_index.bin";
     std::string cont_idx = base + "_containment.bin";
     std::string adj = base + "_result.bin";
-    int fd_values, fd_vid_idx;
-    LONG_NUMERIC size_values, size_vid_idx;
-
-    header* begin_vertices = (header*)mmapFile(vertices.c_str(), &size_values, &fd_values);
+    LONG_NUMERIC size_vid_idx; int fd_vid_idx;
     vertex_id_index* begin_vid_idx = (vertex_id_index*)mmapFile(vid_idx.c_str(), &size_vid_idx, &fd_vid_idx);
-
     header* end_vertices = (header*)(((char*)begin_vertices) + size_values);
     vertex_id_index* end_vid_idx = (vertex_id_index*)(((char*)begin_vid_idx) + size_vid_idx);
     LONG_NUMERIC V_size = size_vid_idx/sizeof(vertex_id_index);
@@ -82,7 +85,6 @@ int main() {
     FILE* adjacencyFile = fopen64(adj.c_str(),"w");
 
     roaring_bitmap_t *visited_posts = roaring_bitmap_create();
-    header *v = begin_vertices;
     for (; v < end_vertices; v = vertex_next(v)) {
         if (v->hash == POST) {
             //std::cerr << "DEBUG: vertex " << v->id << " for POST" << std::endl;

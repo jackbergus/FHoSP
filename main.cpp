@@ -36,7 +36,7 @@
 
 #include "serializers/commons/Serialize.h"
 #include "serializers/commons/primary_memory/entity_relationship.h"
-#include "serializers/commons/secondary_memory/vertex_id_index.h"
+#include "serializers/commons/secondary_memory/primary_index.h"
 #include "macros.h"
 
 /**
@@ -323,13 +323,13 @@ int main() {
 #endif
 
     std::string vertex_id_file = filename + "_vid_index.bin";
-    FILE *vertex_id_index = fopen64(vertex_id_file.c_str(), "w");
+    FILE *ff = fopen64(vertex_id_file.c_str(), "w");
     for (const LONG_NUMERIC &vertexId: vset1) {
         // Writing the primary index for getting the offset where the vertex is stored
-        struct vertex_id_index pix{vertexId, vertexLabel[vertexId], offsetMap[vertexId]};
-        fwrite(&pix, sizeof(struct vertex_id_index), 1, vertex_id_index);
+        vertex_id_index pix{vertexId, vertexLabel[vertexId], offsetMap[vertexId]};
+        fwrite(&pix, sizeof(vertex_id_index), 1, ff);
     }
-    fclose(vertex_id_index);
+    fclose(ff);
 
     fclose(adjacency_list);
 

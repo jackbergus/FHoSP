@@ -32,7 +32,7 @@
 #include "serializers/commons/secondary_memory/queryresult.h"
 #include "serializers/commons/secondary_memory/JOINRESULT.h"
 #include "serializers/utils/mmapFile.h"
-#include "dependencies/CRoaring/roaring.h"
+#include "dependencies/CRoaring/include/roaring/roaring.h"
 
 #include "hashes_paper.h"
 #include "serializers/commons/secondary_memory/primary_index.h"

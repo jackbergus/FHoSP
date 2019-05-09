@@ -1,3 +1,6 @@
+[submodule "dependencies/CRoaring"]
+	path = dependencies/CRoaring
+	url = https://github.com/RoaringBitmap/CRoaring
 [submodule "dependencies/graphnestingc"]
 	path = dependencies/graphnestingc
 	url = https://bitbucket.org/unibogb/graphnestingc/src/master/

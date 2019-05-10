@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="graphSampler"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\dependencies\;CMake Files\dependencies\graphnestingc\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="virtuosoBenchmark">
+				<Option output="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/virtuosoBenchmark" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc"/>
+					<Add directory="/usr/local/include/rasqal"/>
+					<Add directory="/usr/local/include/raptor2"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 virtuosoBenchmark"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="virtuosoBenchmark/fast">
+				<Option output="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/virtuosoBenchmark" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc"/>
+					<Add directory="/usr/local/include/rasqal"/>
+					<Add directory="/usr/local/include/raptor2"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 virtuosoBenchmark/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="virtuosoSerialize">
+				<Option output="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/virtuosoSerialize" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc"/>
+					<Add directory="/usr/local/include/rasqal"/>
+					<Add directory="/usr/local/include/raptor2"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 virtuosoSerialize"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="virtuosoSerialize/fast">
+				<Option output="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/virtuosoSerialize" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc"/>
+					<Add directory="/usr/local/include/rasqal"/>
+					<Add directory="/usr/local/include/raptor2"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 virtuosoSerialize/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Ctest">
+				<Option output="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Ctest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc"/>
+					<Add directory="/usr/local/include/rasqal"/>
+					<Add directory="/usr/local/include/raptor2"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 Ctest"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Ctest/fast">
+				<Option output="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Ctest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc"/>
+					<Add directory="/usr/local/include/rasqal"/>
+					<Add directory="/usr/local/include/raptor2"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 Ctest/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="graphSampler">
+				<Option output="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/graphSampler" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 graphSampler"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="graphSampler/fast">
+				<Option output="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/graphSampler" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 graphSampler/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dirwaler">
+				<Option output="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/dirwaler" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 dirwaler"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dirwaler/fast">
+				<Option output="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/dirwaler" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 dirwaler/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="readCollections">
+				<Option output="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/readCollections" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 readCollections"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="readCollections/fast">
+				<Option output="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/readCollections" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 readCollections/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="graphserializers">
+				<Option output="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/libgraphserializers.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 graphserializers"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="graphserializers/fast">
+				<Option output="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/libgraphserializers.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 graphserializers/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="serialize_graph_collection">
+				<Option output="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/serialize_graph_collection" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 serialize_graph_collection"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="serialize_graph_collection/fast">
+				<Option output="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/serialize_graph_collection" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 serialize_graph_collection/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="nestCollections">
+				<Option output="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/nestCollections" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 nestCollections"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="nestCollections/fast">
+				<Option output="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/nestCollections" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 nestCollections/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="nestPatterns">
+				<Option output="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/nestPatterns" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 nestPatterns"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="nestPatterns/fast">
+				<Option output="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/nestPatterns" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 nestPatterns/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/cmake-build-debug/dependencies/graphnestingc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/C.cpp">
+			<Option target="Ctest"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/algorithm/nesting/nestCollections.cpp">
+			<Option target="nestCollections"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/algorithm/nesting/nestEdgePattern.cpp">
+			<Option target="nestPatterns"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/algorithm/nesting/nestVirtuoso.cpp.cpp">
+			<Option target="virtuosoBenchmark"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/algorithm/sampling/SamplingAlgorithm.cpp">
+			<Option target="graphSampler"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/algorithm/sampling/SamplingAlgorithm.h">
+			<Option target="graphSampler"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/algorithm/sampling/SamplingAlgorithmCache.cpp">
+			<Option target="graphSampler"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/algorithm/sampling/SamplingAlgorithmCache.h">
+			<Option target="graphSampler"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/algorithm/sampling/argsSampling.cpp">
+			<Option target="graphSampler"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/algorithm/sampling/argsSampling.h">
+			<Option target="graphSampler"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/algorithm/search/binsearch.h">
+			<Option target="graphserializers"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/algorithm/sorting/quicksortFile.cpp">
+			<Option target="graphserializers"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/algorithm/sorting/quicksortFile.h">
+			<Option target="graphserializers"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/future/dirwalk.cpp">
+			<Option target="dirwaler"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/future/forward/optional.h">
+			<Option target="graphSampler"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/future/unveil.h">
+			<Option target="graphSampler"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/main.cpp">
+			<Option target="graphSampler"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/numeric/compares.cpp">
+			<Option target="graphserializers"/>
+			<Option target="serialize_graph_collection"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/numeric/compares.h">
+			<Option target="graphserializers"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/printVertex.cpp">
+			<Option target="graphSampler"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/printVertex.h">
+			<Option target="graphSampler"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/random/RanHash.cpp">
+			<Option target="graphSampler"/>
+			<Option target="serialize_graph_collection"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/random/RanHash.h">
+			<Option target="graphSampler"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/random/RandomFileLine.cpp">
+			<Option target="graphSampler"/>
+			<Option target="serialize_graph_collection"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/random/RandomFileLine.h">
+			<Option target="graphSampler"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/random/RandomGMarkFile.cpp">
+			<Option target="graphSampler"/>
+			<Option target="serialize_graph_collection"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/random/RandomGMarkFile.h">
+			<Option target="graphSampler"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/rbtree/Node.h">
+			<Option target="graphserializers"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/rbtree/enums.h">
+			<Option target="graphserializers"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/rbtree/rbtree.h">
+			<Option target="graphserializers"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/serializers/SerializeGraphCollection.cpp">
+			<Option target="serialize_graph_collection"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/serializers/SerializeVirtuoso.cpp">
+			<Option target="virtuosoSerialize"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/serializers/collections/GraphCollectionSerializeSteps.cpp">
+			<Option target="graphserializers"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/serializers/collections/GraphCollectionSerializeSteps.h">
+			<Option target="graphserializers"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/serializers/commons/Serialize.cpp">
+			<Option target="graphserializers"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/serializers/commons/Serialize.h">
+			<Option target="graphserializers"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/serializers/commons/VertexIterator.cpp">
+			<Option target="graphserializers"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/serializers/commons/VertexIterator.h">
+			<Option target="graphserializers"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/serializers/commons/globals.h">
+			<Option target="graphserializers"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/serializers/commons/primary_memory/element.cpp">
+			<Option target="graphserializers"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/serializers/commons/primary_memory/element.h">
+			<Option target="graphserializers"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/serializers/commons/primary_memory/entity_relationship.cpp">
+			<Option target="graphserializers"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/serializers/commons/primary_memory/entity_relationship.h">
+			<Option target="graphserializers"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/serializers/commons/primary_memory/value.cpp">
+			<Option target="graphserializers"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/serializers/commons/primary_memory/value.h">
+			<Option target="graphserializers"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/serializers/commons/secondary_memory/header.cpp">
+			<Option target="graphserializers"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/serializers/commons/secondary_memory/header.h">
+			<Option target="graphserializers"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/serializers/commons/secondary_memory/primary_index.cpp">
+			<Option target="graphserializers"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/serializers/commons/secondary_memory/primary_index.h">
+			<Option target="graphserializers"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/serializers/commons/secondary_memory/utils/Graph.cpp">
+			<Option target="graphserializers"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/serializers/commons/secondary_memory/utils/Graph.h">
+			<Option target="graphserializers"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/serializers/commons/secondary_memory/utils/GraphCollectionMapper.cpp">
+			<Option target="graphserializers"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/serializers/commons/secondary_memory/utils/GraphCollectionMapper.h">
+			<Option target="graphserializers"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/serializers/commons/structure.cpp">
+			<Option target="graphserializers"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/serializers/commons/structure.h">
+			<Option target="graphserializers"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/serializers/commons/virtuosoredland/Virtuoso.cpp">
+			<Option target="virtuosoBenchmark"/>
+			<Option target="virtuosoSerialize"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/serializers/commons/virtuosoredland/Virtuoso.h">
+			<Option target="virtuosoBenchmark"/>
+			<Option target="virtuosoSerialize"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/serializers/commons/virtuosoredland/VirtuosoGraph.cpp">
+			<Option target="virtuosoBenchmark"/>
+			<Option target="virtuosoSerialize"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/serializers/commons/virtuosoredland/VirtuosoGraph.h">
+			<Option target="virtuosoBenchmark"/>
+			<Option target="virtuosoSerialize"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/serializers/commons/virtuosoredland/VirtuosoQuery.cpp">
+			<Option target="virtuosoBenchmark"/>
+			<Option target="virtuosoSerialize"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/serializers/commons/virtuosoredland/VirtuosoQuery.h">
+			<Option target="virtuosoBenchmark"/>
+			<Option target="virtuosoSerialize"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/serializers/commons/virtuosoredland/test.cpp">
+			<Option target="virtuosoBenchmark"/>
+			<Option target="virtuosoSerialize"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/serializers/commons/virtuosoredland/test.h">
+			<Option target="virtuosoBenchmark"/>
+			<Option target="virtuosoSerialize"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/serializers/commons/virtuosoredland/utils/SchemaValues.cpp">
+			<Option target="virtuosoBenchmark"/>
+			<Option target="virtuosoSerialize"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/serializers/commons/virtuosoredland/utils/SchemaValues.h">
+			<Option target="virtuosoBenchmark"/>
+			<Option target="virtuosoSerialize"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/serializers/commons/virtuosoredland/utils/triplets.c">
+			<Option target="virtuosoBenchmark"/>
+			<Option target="virtuosoSerialize"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/serializers/commons/virtuosoredland/utils/triplets.h">
+			<Option target="virtuosoBenchmark"/>
+			<Option target="virtuosoSerialize"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/serializers/utils/fwrite.cpp">
+			<Option target="graphserializers"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/serializers/utils/fwrite.h">
+			<Option target="graphserializers"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/serializers/utils/mmapFile.cpp">
+			<Option target="graphserializers"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/serializers/utils/mmapFile.h">
+			<Option target="graphserializers"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/testSerializer/readCollections.cpp">
+			<Option target="readCollections"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/media/giacomo/Data/Progetti/ETL/third_party/FHoSP/dependencies/graphnestingc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\dependencies\graphnestingc\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
